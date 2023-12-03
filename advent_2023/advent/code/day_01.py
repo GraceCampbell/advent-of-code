@@ -1,4 +1,3 @@
-
 def part_one(inputs):
     calibration_sum = 0
     for line in inputs:
