@@ -33,5 +33,5 @@ if __name__ == '__main__':
     with open('../inputs/day_02.txt', 'r') as f:
         inputs = f.read().split('\n')
 
-    print('Part 1 Answer: ', part_one(inputs))  # 145
+    print('Part 1 Answer: ', part_one(inputs))
 
