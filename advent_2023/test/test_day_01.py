@@ -1,7 +1,7 @@
 from advent_2023.advent.code.day_01 import *
 
 
-def test_day_01():
+def test_part_one():
     vals = """1abc2
         pqr3stu8vwx
         a1b2c3d4e5f
@@ -10,7 +10,7 @@ def test_day_01():
     assert part_one(vals) == 142
 
 
-def test_day_02():
+def test_part_two():
     vals = """two1nine
         eightwothree
         abcone2threexyz
