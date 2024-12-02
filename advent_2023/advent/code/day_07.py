@@ -12,7 +12,7 @@ hand_rank = {
 def part_one(data):
     hands = parse(data)
     for hand in hands:
-
+        pass
 
 def get_hand_rank(hand):
     if len(set(hand)) == 1:
