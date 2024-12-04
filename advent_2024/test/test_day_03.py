@@ -1,4 +1,4 @@
-from advent_2024.advent.code.day_03 import *
+from ..advent.code.day_03 import *
 
 
 def test_part1():
