@@ -13,4 +13,9 @@ vals = """....#.....
 
 
 def test_day1():
-    assert part_one(vals) == 41
+    _, res = part_one(vals)
+    assert res == 41
+
+
+def test_day2():
+    assert part_two(vals) == 6
