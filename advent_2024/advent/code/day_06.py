@@ -1,5 +1,7 @@
 import pandas as pd
 
+from advent_2024.advent.utils import turn_90_degrees
+
 
 def part_one(vals):
     layout = pd.DataFrame([list(x) for x in vals])
@@ -50,17 +52,6 @@ def move(x, y, direction, layout):
         next_loc = y + direction[1], x + direction[0]
     x, y = x + direction[0], y + direction[1]
     return x, y, direction
-
-
-def turn_90_degrees(direction):
-    if direction == (0, -1):
-        return (1, 0)
-    elif direction == (1, 0):
-        return (0, 1)
-    elif direction == (0, 1):
-        return (-1, 0)
-    else:
-        return (0, -1)
 
 
 if __name__ == '__main__':
