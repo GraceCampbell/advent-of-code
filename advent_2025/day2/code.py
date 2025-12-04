@@ -1,6 +1,3 @@
-import numpy as np
-
-
 def find_invalid_ids(puzzle_input, at_least_twice=False):
     """
     at_least_twice=True for part 2
