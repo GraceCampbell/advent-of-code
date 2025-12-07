@@ -1,7 +1,5 @@
 import re
 
-from bin.ud.ud_run_test import split_text
-
 
 def part_one(puzzle_input):
     rows = puzzle_input.split('\n')
